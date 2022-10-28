@@ -55,6 +55,7 @@ const Home = () => {
               Design Books
             </a>
           </button>
+          {/* create logo */}
           <div className="logo-section">
             <img src={slack} alt="slack_img" className="slack" />
             <img src={github} alt="github_img" className="github" />
