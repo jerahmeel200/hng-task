@@ -27,7 +27,7 @@ function App() {
             jamico
           </h2>
         </div>
-        {/* Profile Section end */}
+        {/* Profile Section */}
 
         {/* Link section Start */}
         <div className="link-section">
