@@ -1,0 +1,132 @@
+.contact__container {
+  width: 100%;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__content {
+  width: 50%;
+  box-sizing: content-box;
+}
+
+.contact__content h3 {
+  font-size: 1.8rem;
+  color: #101828;
+}
+
+.contact__content p {
+  color: #475467;
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact__content label {
+  display: block;
+  color: #344054;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact__content input[type="text"],
+.contact__content input[type="email"],
+.contact__content textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: solid 1px #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+
+.contact__content textarea {
+  height: 132px;
+  resize: none;
+}
+
+.name__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+}
+
+.agree__container {
+  display: flex;
+  color: #475467;
+  margin-bottom: 2rem;
+}
+
+.contact__content input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  margin-right: 0.5rem;
+}
+
+.contact__content .submit__btn__container {
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact__content .submit__btn__container button {
+  width: 100%;
+  padding: 12px 30px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.contact__content .submit__btn__container button:hover {
+  background-color: #175cd3;
+}
+
+.contact__content .submit__btn__container button:disabled {
+  background-color: #b2ddff;
+  border-color: #b2ddff;
+  cursor: not-allowed;
+}
+
+p.error {
+  color: #f83f23;
+}
+
+/* media query */
+@media screen and (max-width: 850px) {
+  .contact__container {
+    margin-top: 3rem;
+  }
+
+  .contact__content {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .name__container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__content {
+    display: block;
+  }
+
+  .footer__content img {
+    width: 50%;
+    margin: 0.8rem auto;
+    display: block;
+    float: left;
+    clear: both;
+  }
+}
