@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     validate();
   };
-
+  // validations
   const validate = () => {
     if (
       firstname.length <= 0 ||
