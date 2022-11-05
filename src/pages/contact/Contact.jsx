@@ -104,7 +104,8 @@ const Contact = () => {
               onClick={() => setIsValid(!isValid)}
             />
             <span>
-              You agree to provide your data to Jamico who may contact you
+              You agree to provide your data to Jerahmeel princewill who may
+              contact you
             </span>
           </div>
           <div className="submit__btn__container">
