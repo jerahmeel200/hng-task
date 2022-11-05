@@ -1,14 +1,10 @@
 import React from "react";
-// import "./App.css";
 import logo from "../../assets/profile.png";
 import github from "../../assets/Icon.png";
 import slack from "../../assets/Slack_icon.png";
-// import vector from "../../assets/Vector.png";
-// import I4G from "../../assets/I4G.png";
 import share from "../../assets/Icon-share.png";
 import dot from "../../assets/Icon-dot.png";
 import "./Home.css";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -67,9 +63,7 @@ function Home() {
             </a>
           </button>
           <button>
-            <Link className to="/contact">
-              Contact Me
-            </Link>
+            <a href="/contact">Contact Me</a>
           </button>
         </div>
         {/* Link section ends */}
