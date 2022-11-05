@@ -1,6 +1,5 @@
 import React from "react";
 import vector from "../assets/Vector.png";
-// import hng_icon from "../assets/Footer text.svg";
 import I4G from "../assets/I4G.png";
 import "./footer.css";
 const footer = () => {
