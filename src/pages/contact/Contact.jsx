@@ -109,7 +109,7 @@ const Contact = () => {
             </span>
           </div>
           <div className="submit__btn__container">
-            <button type="submit" disabled={!isValid}>
+            <button id="btn__submit" type="submit" disabled={!isValid}>
               Send message
             </button>
           </div>

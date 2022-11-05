@@ -63,12 +63,12 @@ function Home() {
             </a>
           </button>
           <button>
-            <a href="/contact">Contact Me</a>
+            <a href="/contact" id="contact">
+              Contact Me
+            </a>
           </button>
         </div>
-        {/* Link section ends */}
 
-        {/* Social Section Start */}
         <div className="social-section">
           <img src={slack} alt="" height="30" />
           <img src={github} alt="" height="30" />
