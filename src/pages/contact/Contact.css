@@ -103,7 +103,6 @@ p.error {
   color: #f83f23;
 }
 
-/* media query */
 @media screen and (max-width: 850px) {
   .contact__container {
     margin-top: 3rem;
