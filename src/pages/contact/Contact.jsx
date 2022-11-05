@@ -57,6 +57,7 @@ const Contact = () => {
                 value={lastname}
                 onChange={(e) => setLastname(e.target.value)}
               />
+              {/*  */}
               {isError && firstname <= 0 ? (
                 <p className="error">Please enter your last name</p>
               ) : (
